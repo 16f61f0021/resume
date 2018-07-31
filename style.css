@@ -16,6 +16,7 @@ img{
   border: 2px solid #5BE615;
 display: block;
 margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -23,7 +24,7 @@ h2,
 h3{
   text-align: center;
 }
-a
+.a
 {
   display: block;
   text-align: center;
@@ -44,4 +45,109 @@ width: 70%;
 border: 2px solid #000;
 padding: 2%;
 margin: 2%;
+}
+.mail{
+  text-decoration: none;
+  font-size: 75%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .leftChild{
+    width: 90%;
+    border: 2px solid #000;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .rightChild{
+  width: 70%;
+  border: 2px solid #000;
+  padding: 2%;
+  margin: 2%;
+  }
+  .mail{
+    text-decoration: none;
+    font-size: 75%;
+  }
+  h2,
+  h3{
+    text-align: center;
+  }
+  .a
+  {
+    display: block;
+    text-align: center;
+    text-decoration:none;
+    background: #5BE615;
+    color: #000;
+    padding: 2%;
+  }
+  img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #5BE615;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
+@media only screen and (min-width:481px) and (max-width:720px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .child{
+  border: 2px solid #000;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 3px 3px 3px 3px #000;
+  }
+
+
+  h2,
+  h3{
+    text-align: center;
+  }
+  .a
+  {
+    display: block;
+    text-align: center;
+    text-decoration:none;
+    background: #5BE615;
+    color: #000;
+    padding: 2%;
+  }
+  .leftChild{
+    width: 30%;
+    border: 2px solid #000;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  .rightChild{
+  width: 70%;
+  border: 2px solid #000;
+  padding: 2%;
+  margin: 2%;
+  }
+  .mail{
+    text-decoration: none;
+    font-size: 75%;
+  }
+  img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #5BE615;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
