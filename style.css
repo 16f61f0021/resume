@@ -100,7 +100,7 @@ margin: 2%;
 @media only screen and (min-width:481px) and (max-width:720px){
   .parent{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
   }
   .child{
@@ -120,19 +120,19 @@ margin: 2%;
     display: block;
     text-align: center;
     text-decoration:none;
-    background: #5BE615;
+    background: #ddd;
     color: #000;
     padding: 2%;
   }
   .leftChild{
-    width: 30%;
+    width: 42%;
     border: 2px solid #000;
     padding: 2%;
     margin: 2%;
     text-align: center;
   }
   .rightChild{
-  width: 70%;
+  width: 42%;
   border: 2px solid #000;
   padding: 2%;
   margin: 2%;
