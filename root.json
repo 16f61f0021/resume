@@ -4,22 +4,22 @@
   },
   "education":[
     {
-      "PG":"mca ",
+      "degree":"mca ",
       "institute":"siddharth institute of engineering and technology",
       "data":["2016-2019","7.5"]
     },
     {
-      "Degree":"B.Sc (MPE) ",
+      "degree":"B.Sc (MPE) ",
       "institute":"S V arts college",
       "data":["2013-2016","69"]
     },
     {
-      "intermediate":"MPC",
+      "degree":"MPC",
       "institute":"RAYALASEEMA ARTS AND SCIENCE Jr COLLEGE",
       "data":["2011-2013","84.5"]
     },
     {
-      "SSC":"10th ",
+      "degree":"SSC ",
       "institute":"Z P H S",
       "data":["2010","72"]
     }
