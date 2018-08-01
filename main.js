@@ -24,6 +24,7 @@ fetchedData.then(root=>{
   career(root.career);
   education(root.education);
   skills(root.skills);
+  achivements(root.achivements);
 })
 
 var child2=document.querySelector("#child2");
@@ -75,5 +76,30 @@ function skills(skill){
   child2.appendChild(title);
   var list=document.createElement("ul");
   child2.appendChild(list);
+  console.log(skill[i].set.length);
+  for(var j=0;j<skill[i].set.length;j++){
+    var listItem=document.createElement("li");
+    listItem.textContent=skill[i].set[j];
+    list.appendChild(listItem);
+  }
 }
+}
+
+//achivements
+
+function achivements(achivement){
+  var heading=document.createElement("h2");
+  heading.textContent="Achivements";
+  child2.appendChild(heading);
+  var hLine=document.createElement("hr");
+  heading.appendChild(hLine);
+  var list=document.createElement("ul");
+  child2.appendChild(list);
+var i=0;
+var listItem="";
+while(i<achivement.length){
+  listItem+="<li>"+achivement[i].achivedData+"</li>";
+  i++;
+}
+list.innerHTML=listItem;
 }
