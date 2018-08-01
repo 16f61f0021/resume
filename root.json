@@ -23,5 +23,23 @@
       "institute":"Z P H S",
       "data":["2010","72"]
     }
+  ],
+  "skills":[
+    {
+      "title":"programming Languages",
+      "set":["C","Java","python"]
+  },
+  {
+    "title":"Web tchnologies",
+    "set":["HTML","css","PHP"]
+},
+{
+  "title":"Data Bases",
+  "set":["Oracle","Sql","mysql","Nosql"]
+},
+{
+  "title":"Operating systems",
+  "set":["windows","dos","linux"]
+}
   ]
 }
