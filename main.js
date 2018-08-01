@@ -22,17 +22,35 @@ var fetchedData=loadJSON("root.json");
 fetchedData.then(root=>{
   console.log(root);
   career(root.career);
+  education(root.education);
 })
 
 var child2=document.querySelector("#child2");
+//career
 console.log(child2);
 
 function career(car){
   var heading=document.createElement("h2");
   heading.textContent="Career objective";
   child2.appendChild(heading);
+  var hLine=document.createElement("hr");
+  heading.appendChild(hLine);
   var p=document.createElement("p");
   console.log(child2);
   p.textContent=car.info;
   child2.appendChild(p);
+}
+//education
+// console.log(child2);
+function education(edu){
+  var heading=document.createElement("h2");
+  heading.textContent="Education Qualifications";
+  child2.appendChild(heading);
+  var hLine=document.createElement("hr");
+  heading.appendChild(hLine);
+  var table=document.createElement("table");
+  child2.appendChild(table);
+  var tr="<tr> <td> S.no </td> <td> Qualification </td> <td> institute </td> <td> Data </td> </tr>";
+  table.innerHTML=tr;
+  table.border="1";
 }
