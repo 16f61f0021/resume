@@ -28,6 +28,9 @@ var child2=document.querySelector("#child2");
 console.log(child2);
 
 function career(car){
+  var heading=document.createElement("h2");
+  heading.textContent="Creer objective";
+  child2.appendChild(heading);
   var p=document.createElement("p");
   console.log(child2);
   p.textContent=car.info;
